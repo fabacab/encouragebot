@@ -11,7 +11,7 @@
             <string>/bin/bash</string>
             <string>~/Applications/encouragebot.sh</string>
             <string>--update-url</string>
-            <string>http://maymay.net/maymaymedia/projects/encouragebot/encouragements.txt</string>
+            <string>https://github.com/meitar/encouragebot/raw/master/encouragements.txt</string>
         </array>
         <key>EnvironmentVariables</key>
         <dict>
