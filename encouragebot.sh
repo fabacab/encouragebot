@@ -86,7 +86,7 @@ deleteEncouragement () {
 }
 
 updateEncouragementsFromUrl () {
-    cat <(curl --silent -L "$1" -w "\n") "$ENCOURAGEMENTS" \
+    cat <(curl --silent --fail -L "$1" -w "\n") "$ENCOURAGEMENTS" \
         | sort \
             | uniq \
                 | sed '/^$/d' \
